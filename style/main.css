@@ -53,14 +53,14 @@ header nav a:hover{
 .filme-principal .titulo{
     margin-top: 20px;;
     font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 8px
 }
 
 .filme-principal .descricao{
     margin-bottom: 40px;
     margin-top: 10px;
-
+    margin-left: 8px
 }
 
 .botao-assistir{
@@ -73,6 +73,7 @@ header nav a:hover{
     border-radius: 5%;
     overflow: hidden;
     transition: .3s ease all;
+    margin-left: 8px
 }
 
 .botao-info{
@@ -85,6 +86,7 @@ header nav a:hover{
     border-radius: 5%;
     overflow: hidden;
     transition: .3s ease all;
+    margin-left: 8px
   }
   
   .botao-assistir:hover{
@@ -101,7 +103,17 @@ header nav a:hover{
   .botao-assistir i{
       margin-right: 8px;
   }
-
+  
   .botao-info i{
     margin-right: 8px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrossel-filmes{
+    margin-top: 5px;
 }
